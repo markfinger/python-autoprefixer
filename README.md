@@ -5,7 +5,7 @@ Python bindings to autoprefixer
 Installation
 ------------
 
-Install [js-host](https://github.com/markfinger/python-js-host]
+Install [js-host](https://github.com/markfinger/python-js-host)
 
 ```bash
 pip install autoprefixer
@@ -41,9 +41,9 @@ from autoprefixer.compiler import autoprefixer
 
 prefixed_css = autoprefixer('body { color: red; }')
 
-prefixed_css = autoprefixer('/path/to/file.css', options={browsers: ['> 1%', 'IE 7']})
+prefixed_css = autoprefixer('/path/to/file.css', options={'browsers': ['> 1%', 'IE 7']})
 
 prefixed_css = autoprefixer('/path/to/file.css', is_file=True)
 
-prefixed_css = autoprefixer('/path/to/file.css', is_file=True, options={browsers: ['> 1%', 'IE 7']})
+prefixed_css = autoprefixer('/path/to/file.css', is_file=True, options={'browsers': ['> 1%', 'IE 7']})
 ```
