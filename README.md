@@ -1,6 +1,6 @@
 # python-autoprefixer
 
-Python bindings to autoprefixer
+Python bindings to [autoprefixer](https://github.com/postcss/autoprefixer)
 
 Installation
 ------------
