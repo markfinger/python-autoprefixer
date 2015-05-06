@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "dependencies": {
+    "autoprefixer-core": "^5.1.11",
+    "js-host": "^0.11.2"
+  }
+}
