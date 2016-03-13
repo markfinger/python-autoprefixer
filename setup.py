@@ -11,4 +11,5 @@ setup(
     author='Mark Finger',
     author_email='markfinger@gmail.com',
     url='https://github.com/markfinger/python-autoprefixer',
+    description='Python bindings to autoprefixer',
 )
